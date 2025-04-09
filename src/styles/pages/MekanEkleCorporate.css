@@ -1,0 +1,87 @@
+.hepsi{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    .hepsi-container{
+        margin-inline-start: 120px;
+       max-width: 500px;;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .hepsi-container .birinci{
+    color: rgb(34, 119, 122);
+    margin-inline-start: 100px;
+    font-weight: bold;
+    font-size:xx-large;
+    margin-bottom: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+   
+    
+    .hepsi-container input{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px 10px;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid rgb(212, 202, 202);
+    border-radius: 7px;
+    text-align: center;
+    width: 800px;
+    }
+    .hepsi-container label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      
+      .hepsi-container label input {
+        margin-left: 10px; 
+        width: 200px; 
+      }
+    
+    
+    
+    
+    .butonn{
+        border: 1px solid gray;
+        padding: 10px;
+        text-align: center;
+        border-radius: 15px;
+        margin-left: 120px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        margin-top: 10px;
+        background-color: rgb(30, 134, 30);
+        color: white;
+        cursor: pointer;
+        width: 200px;
+    
+    }
+    
+   
+    
+    .header-container {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      margin-bottom: 20px; 
+    }
+    
+    .baslik {
+      margin: 0; 
+    }
+    
+   

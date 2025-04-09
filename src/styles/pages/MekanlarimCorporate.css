@@ -1,0 +1,68 @@
+.cafe-list-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.cafe-list {
+  display: flex;
+  justify-content: center;
+}
+
+.cafe-grid {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+}
+
+.cafe-card {
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  padding: 10px; /* Kart içeriğine padding uygulayın */
+  max-width: 100%; 
+  overflow: hidden; /* Taşan içeriği gizler */
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  height: 100%; /* Kartın yüksekliğini tamamen kullan */
+}
+
+.cafe-card h3 {
+  margin-top: 0;
+  font-size: 16px; /* Başlık boyutunu biraz küçültün */
+}
+
+.cafe-card p {
+  margin: 3px 0; /* Paragraflar arasındaki boşluğu azaltın */
+  font-size: 12px; /* Metin boyutunu biraz küçültün */
+}
+
+.cafe-card img {
+  max-width: 250px;
+  max-height: 230px;
+  border-radius: 8px; 
+  margin-top: 10px; 
+  margin-right: 40px;
+}
+/* styles/KampanyaEkleModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgb(232, 173, 173);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}
+

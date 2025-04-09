@@ -1,0 +1,57 @@
+.ilksayfa {
+  text-align: center;
+  margin-top: 20vh;
+  background-color: rgb(205, 212, 218);
+ 
+}
+
+.metin{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-style:italic;
+  cursor: pointer;
+
+}
+.saat{
+  width: 250px;
+  height: 250px;
+  margin-left: 650px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.baslik{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-weight:bold;
+  font-size:xx-large;
+  cursor: pointer;
+  
+  
+}
+
+
+.buttonContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+  margin-top: 40px;
+  background-color: rgb(30, 134, 30);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+  

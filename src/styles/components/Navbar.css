@@ -1,0 +1,41 @@
+.navbarr {
+  height: 40px;
+  background-color: rgb(35, 130, 120);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+}
+
+.buttonContainerr {
+  cursor: pointer;
+  display: flex;
+  justify-content: center; 
+}
+
+.buttonn {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid transparent;
+  padding: 10px 15px; 
+  text-align: center;
+  margin: 5px 8px; 
+  background-color: #6dce9c; /* Button color */
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonn:hover {
+  background-color: #0056b3; /* Button hover color */
+}
+
+.menu-icon {
+  position: relative;
+  top: 5px;
+  bottom: 10px;
+  right: 20px;
+  color: white;
+  font-size: 25px; 
+}

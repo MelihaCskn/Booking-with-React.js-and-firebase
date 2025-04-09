@@ -1,0 +1,70 @@
+/* RezerveBilgi.css */
+
+.rezerve-bilgi {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+  }
+  
+  .loading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .not-authenticated {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .kafe-listesi {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dinamik sütunlar */
+  }
+  
+  .kafe-card {
+    background-color: #f0f0f0;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kafe-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .rezervasyon-item {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .rezervasyon-item h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .rezervasyon-item h4 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .rezervasyon-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .rezervasyon-item ul li {
+    margin-top: 5px;
+  }
+  
+  .no-reservation {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+  }
+  

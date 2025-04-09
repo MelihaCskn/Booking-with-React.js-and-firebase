@@ -1,0 +1,85 @@
+.cafe-list-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.center-content {
+  max-width: 1000px; 
+  margin: 0 auto;
+  
+}
+
+.baslik {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.filter-section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  margin: 0 10px;
+}
+
+.filter-input input {
+  padding: 8px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.cafe-list {
+  margin-top: 20px;
+}
+
+.cafe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Her satırda üç kafe olacak şekilde düzenlendi */
+  gap: 20px;
+}
+
+.cafe-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: rgb(242, 234, 223);
+}
+
+.cafe-card:hover {
+  transform: scale(1.03);
+}
+
+.price-section {
+  margin-top: 10px;
+}
+
+.price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.price-label,
+.campaign-price-label {
+  font-weight: bold;
+}
+
+.price {
+  margin-right: 10px;
+}
+
+.price p {
+  margin: 5px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
